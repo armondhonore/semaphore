@@ -12,7 +12,7 @@ application:
       SEMAPHORE_ADMIN_PASSWORD: nexlayer2024
       SEMAPHORE_ADMIN_NAME: Admin
       SEMAPHORE_ADMIN_EMAIL: armond@nexlayer.com
-      SEMAPHORE_ACCESS_KEY_ENCRYPTION: "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3=="
+      SEMAPHORE_ACCESS_KEY_ENCRYPTION: "tFk+76xEyjGLPQ3SOM1MYYaOl5x+uaPekgeP1mZKpjU="
     volumes:
     - name: semaphore-data
       mountPath: /var/lib/semaphore
