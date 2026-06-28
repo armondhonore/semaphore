@@ -2,7 +2,7 @@ application:
   name: semaphore
   pods:
   - name: app
-    image: semaphoreui/semaphore:latest
+    image: mirror.gcr.io/semaphoreui/semaphore:latest
     path: /
     servicePorts:
     - 3000
