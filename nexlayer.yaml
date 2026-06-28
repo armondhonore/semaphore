@@ -13,7 +13,3 @@ application:
       SEMAPHORE_ADMIN_NAME: Admin
       SEMAPHORE_ADMIN_EMAIL: armond@nexlayer.com
       SEMAPHORE_ACCESS_KEY_ENCRYPTION: "tFk+76xEyjGLPQ3SOM1MYYaOl5x+uaPekgeP1mZKpjU="
-    volumes:
-    - name: semaphore-data
-      mountPath: /var/lib/semaphore
-      size: 5Gi
