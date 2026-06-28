@@ -7,7 +7,8 @@ application:
     servicePorts:
     - 3000
     vars:
-      SEMAPHORE_DB_DIALECT: bolt
+      SEMAPHORE_DB_DIALECT: sqlite
+      SEMAPHORE_DB_HOST: /home/semaphore/database.sqlite
       SEMAPHORE_ADMIN: admin
       SEMAPHORE_ADMIN_PASSWORD: nexlayer2024
       SEMAPHORE_ADMIN_NAME: Admin
